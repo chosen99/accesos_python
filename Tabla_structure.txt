@@ -1,0 +1,15 @@
+CREATE TABLE alumnos (
+    id          INTEGER PRIMARY KEY
+                        UNIQUE,
+    Codigo      TEXT,
+    CodigoStick TEXT,
+    CodigoKey   TEXT,
+    Nombre      TEXT    NOT NULL,
+    AP          TEXT    NOT NULL,
+    AM          TEXT    NOT NULL,
+    Grupo       TEXT    NOT NULL,
+    Foto        BLOB,
+    Semestre    TEXT    NOT NULL,
+    Bloqueo     NUMERIC NOT NULL,
+    Push        TEXT
+);

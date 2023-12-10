@@ -1,0 +1,2 @@
+pip install PyAutoGUI
+sudo apt-get install php-sqlite3
